@@ -4,12 +4,12 @@ import json
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters, CallbackQueryHandler
 
-TELEGRAM_TOKEN = '' # Telegram Token
-API_KEY = '' #5sim's API Key
-ADMIN_USER_IDS = []  # Replace with the actual admin's user ID
+TELEGRAM_TOKEN = '7423474603:AAEDPJZbA5xjLm_eLeUqgiNOqB51uf_7gr0' # Telegram Token
+API_KEY = '27155569' #5sim's API Key
+ADMIN_USER_IDS = [6769245930]  # Replace with the actual admin's user ID
 
 # Dictionary to store authorized users and their expiration times
-authorized_users = {}
+authorized_users = {6769245930}
 BANNED_USER_IDS = []
 
 # Global variables
